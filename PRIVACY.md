@@ -1,6 +1,6 @@
 # Privacy Policy
 
-  **Last updated: July 14, 2026**
+  **Last updated: October 10, 2026**
 
   ## Overview
 
@@ -11,20 +11,21 @@
   ## Data Collection
 
   Simple Count does **not** collect, transmit, or share any personal
-  data. All information you enter — event names, dates, notes,
-  photos, and settings — is stored **locally on your device** and,
-  if you are signed in to iCloud, in **your own personal iCloud**
-  (see iCloud Backup below). We cannot access either.
+  data with us. All information you enter — event names, dates,
+  notes, photos, and settings — is stored **locally on your device**
+  and, if you are signed in to iCloud, in **your own personal
+  iCloud** (see iCloud Backup and Count Down Together below). We
+  cannot access any of it.
 
   The only data that ever becomes visible to anyone else is what you
-  explicitly share with the optional **Send to a Friend** feature
-  described below.
+  explicitly share with the optional **Count Down Together** and
+  **Send a Copy** features described below.
 
   ## What Is Stored Locally
 
   - Event names, dates, and notes
   - Event photos (stored on your device)
-  - App settings and preferences
+  - Reminders, app settings, and preferences
 
   ## iCloud Backup
 
@@ -42,18 +43,53 @@
   - You can turn backup off — or delete the backup from your iCloud
   entirely — at any time in **Settings → iCloud Backup** inside the
   app.
+  - Shared countdowns (see Count Down Together) are not part of the
+  backup: they already live in iCloud and come back by themselves.
 
-  ## Optional Sharing Feature (Send to a Friend)
+  ## Optional Sharing: Count Down Together
 
-  Simple Count includes an optional feature that lets you share
-  events with other people. When you use this feature:
+  Count Down Together (from version 2.3.0) lets you share a countdown
+  with people you choose, so that everyone sees the same countdown
+  and every change to it. It only happens when you start or join one
+  yourself. When you use it:
 
-  - The selected event data (name, date, emoji, note, and optionally
-  a photo) is uploaded to **Apple's iCloud (CloudKit)**
+  - The shared countdown — its name, date and time, emoji, card
+  style, repeat setting, note, and photo, if it has one — is stored in
+  the **private iCloud database of the person who started it**, using
+  Apple's iCloud sharing (CloudKit). It counts toward their iCloud
+  storage.
+  - Only the people invited (or, if the person who started it chose
+  "anyone with the link", people who have the link) can open it.
+  Everyone in it can see and change these details.
+  - Everyone in a shared countdown can see the **names of the other
+  people in it**, as Apple's iCloud provides them. When you invite
+  someone, Apple uses the contact details you choose (such as an
+  email address or phone number) to deliver the invitation.
+  - **Reminders, pins, and confetti settings are never shared.** They
+  stay on each person's own device.
+  - The person who started it can stop sharing or delete it for
+  everyone at any time. Anyone else can leave at any time, which
+  removes it from their devices.
+  - If you sign out of iCloud, shared countdowns are removed from
+  your device. They come back when you sign in again with the same
+  Apple Account.
+  - **We cannot access, read, or receive shared countdowns.** They are
+  stored by Apple under Apple's iCloud terms of service, and Simple
+  Count has no servers.
+
+  ## Optional Sharing: Send a Copy
+
+  Send a Copy (called "Send to a Friend" before version 2.3.0) sends
+  someone a separate copy of a countdown. The copy is not linked:
+  later changes are not shared. When you use this feature:
+
+  - The selected event data (name, date, emoji, card style, repeat
+  and reminder settings, note, and optionally a photo) is uploaded to **Apple's iCloud (CloudKit)**
   infrastructure.
   - A unique share link is generated. Anyone with this link can
   import the event into their own copy of Simple Count.
-  - Shared data is automatically **deleted after 7 days**.
+  - The link **expires after 7 days**, after which the shared data is
+  deleted.
   - You control when and what you share. This feature is never
   triggered automatically.
 
@@ -73,8 +109,12 @@
 
   ## Notifications
 
-  If you enable day-of notifications, these are handled entirely by
-  iOS on your device. No notification data is sent to any server.
+  Reminders are scheduled and delivered entirely by iOS on your
+  device. No notification data is sent to any server.
+
+  For shared countdowns, Apple's iCloud sends your device a silent
+  signal when someone changes a countdown, so it can update. This
+  goes from Apple to your device and contains no countdown data.
 
   ## Children's Privacy
 
