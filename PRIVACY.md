@@ -58,13 +58,16 @@
   the **private iCloud database of the person who started it**, using
   Apple's iCloud sharing (CloudKit). It counts toward their iCloud
   storage.
-  - Only the people invited (or, if the person who started it chose
-  "anyone with the link", people who have the link) can open it.
-  Everyone in it can see and change these details.
+  - You invite people by sending them a **link**, through any app you
+  choose (for example Messages or WhatsApp). **Anyone who has the link
+  can join** and see and change these details, and the link shows the
+  countdown's name and picture to whoever has it. The person who
+  started it can remove people, or make it invite-only, at any time.
   - Everyone in a shared countdown can see the **names of the other
-  people in it**, as Apple's iCloud provides them. When you invite
-  someone, Apple uses the contact details you choose (such as an
-  email address or phone number) to deliver the invitation.
+  people in it**, as Apple's iCloud provides them. If the person who
+  started it makes it invite-only and adds people directly, Apple uses
+  the contact details they choose (such as an email address or phone
+  number) to deliver the invitation.
   - **Reminders, pins, and confetti settings are never shared.** They
   stay on each person's own device.
   - The person who started it can stop sharing or delete it for
@@ -79,7 +82,10 @@
 
   ## Optional Sharing: Send a Copy
 
-  Send a Copy (called "Send to a Friend" before version 2.3.0) sends
+  Send a Copy ("Send to a Friend" in the app) is available **only in
+  versions before 2.3.0**. From version 2.3.0, Simple Count no longer
+  uploads copies; it can still open links sent from older versions,
+  which only reads the copy. In older versions, Send a Copy sends
   someone a separate copy of a countdown. The copy is not linked:
   later changes are not shared. When you use this feature:
 
