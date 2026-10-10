@@ -88,8 +88,9 @@
   infrastructure.
   - A unique share link is generated. Anyone with this link can
   import the event into their own copy of Simple Count.
-  - The link **expires after 7 days**, after which the shared data is
-  deleted.
+  - The link **stops working after 7 days**. The copy is then deleted
+  from iCloud, at the latest **30 days after you sent it**. We delete
+  expired copies without opening them.
   - You control when and what you share. This feature is never
   triggered automatically.
 
